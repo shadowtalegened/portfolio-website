@@ -1,0 +1,165 @@
+*{
+     margin: 0px;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+
+body{
+     background-color: black;
+     font-style: arial;
+     color: #c5c5c5;
+     font-family: "poppins", sans-serif;
+     
+}
+
+a{
+     text-decoration: none;
+}
+
+header {
+     background-color: #222;
+}
+.navbar {
+     display: flex;
+}
+.navbar div {
+     padding: 30px 20px;
+}
+
+nav {
+     display: flex;
+     justify-content: space-between;
+     width: 1200px;
+     margin: 0 auto;
+}  
+.navbar a{
+     color: rgb(244, 245, 245);
+}
+.joker img {
+     width: 150px;
+}
+.container {
+     width: 1100px;
+     margin: 0 auto;
+     padding: 80px 20px;
+}
+.about {
+     text-align: center;
+}
+.avatar img {
+   width: 251px;
+}
+.about-text{
+     width: 652px;
+     margin: 30px auto;
+}
+.about-text h1 {
+     font-size: 55px;
+     line-height: 1;
+     color: #fff;
+}
+.about-text h1 > span{
+     background: var(
+          --Primary-Gradient,
+          linear-gradient(116deg, #31eae7 71.79%, #9a33ff 95.51%)
+     );
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.about-text p{
+     font-size: 18px;
+     margin-top: 35px;
+}
+.abt-button{
+     margin-top: 30px;
+}
+.btn-secondary{
+     width: 195px;
+     height: 64px;
+     background: none;
+     border: 2px solid #fff;
+     border-radius: 50px;
+     font-size: 22px;
+     color: #fff;
+}
+
+.btn-primary{
+     width: 195px;
+     height: 64px;
+     flex-shrink: 0;
+     border-radius: 50px;
+     border: 1px solid var(--Primary-Color, #FFF);
+     background: linear-gradient(0deg, var(--Primary-Color, #FFF) 0%,
+      var(--Primary-Color, #FFF) 100%), var(--Primary-Color, #FFF);
+     font-size: 22px;
+     margin-right: 20px;
+}
+.experience-with{
+     text-align: center;
+}
+.experience-with h2{
+     font-size: 22px;
+}
+.experience-with-lang{
+     display: flex;
+     width: 300px;
+     margin: 50px auto;
+     justify-content: space-between;
+}
+.experience-with-lang img{
+     width: 42px;
+}
+.primary-heading{
+     text-align: center;
+     font-size: 37px;
+}
+.heading-project{
+     background: var(--Orange-Gradient, linear-gradient(180deg, #e26d49 0%, #e83600 100%));
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.projects {
+     display: flex;
+     justify-content: space-between;
+     margin: 90px 0;
+   }
+   .project-item {
+     border-radius: 18px 18px 0 0;
+     margin: 0 auto;
+     background: #2a2a2a;
+     
+   }
+   
+   .project-item img {
+     width: 50;
+     border-radius: 18px 18px 0 0;
+   }
+   .project-title {
+     padding-right: 50px;
+   }
+   .project-title h3 {
+     color: #fff;
+   }
+
+footer{
+     background: #191919;
+}
+footer h2{
+     font-size: 24px;
+     color: #FFF;
+     margin-bottom: 20px;
+}
+footer p{
+     font-size: 18px;
+}
+.social-links{
+     display: flex;
+}
+.social-links img{
+     width: 50px;
+     margin-top: 20px;
+     margin-right: 20px;
+}
